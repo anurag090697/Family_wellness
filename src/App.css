@@ -1,46 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-header h1{
+header h1 {
   color: rgb(208, 41, 11);
   font-size: 50px;
+  margin: 1rem 0;
 }
-header p{
+header p {
   color: rgb(136, 136, 136);
 }
-nav{
+nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows:70px;
+  grid-template-rows: 70px;
   width: 100%;
   background-color: rgb(139, 139, 139);
-  
+  margin-top: 1rem;
   align-items: center;
   /* justify-content: center; */
   text-align: center;
 }
-nav a{
-text-decoration: none;
-font-weight: 800;
-color: white;
-font-size: 28px;
+nav a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  font-size: 28px;
 }
-nav > div{
+nav > div {
   height: 100%;
- display: flex;
- align-items: center;
- justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-nav div:hover{
+nav div:hover {
   background-color: brown;
   cursor: pointer;
 }
-.redInfos{
+.redInfos {
   background-color: rgb(227, 64, 35);
- padding: 5rem;
+  padding: 5rem;
   font-size: 25px;
   text-align: center;
   display: flex;
@@ -52,7 +52,7 @@ nav div:hover{
 /* .redInfos> div{
   width: 40%;
 } */
-.btn1{
+.btn1 {
   padding: 12px 24px;
   background-color: brown;
   color: white;
@@ -61,17 +61,47 @@ nav div:hover{
   border: 2px solid white;
   margin: 2rem;
 }
-.btn1:hover{
- background-color: whitesmoke;
-color: black;
-border: 2px solid rgb(99, 0, 219);
-
+.btn1:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid rgb(99, 0, 219);
 }
-.fitnesspics{
+.fitnesspics {
   width: 100%;
   display: flex;
 }
-.fitnesspics img{
-width: 70%;
-margin: 1rem auto;
+.fitnesspics img {
+  width: 70%;
+  margin: 1rem auto;
+}
+.threePS {
+  color: rgb(95, 95, 95);
+  padding: 1.8rem;
+  font-size: 25px;
+}
+.threePS p {
+  margin: 1rem 0;
+}
+.threePS p:first-of-type {
+  color: rgb(224, 0, 0);
+}
+.bottomP {
+  width: 100%;
+  background-color: gray;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 3rem 0;
+}
+footer p {
+  color: rgb(92, 92, 92);
+}
+footer h1 {
+  color: brown;
+  margin-bottom: 1rem;
+  font-size: 39px;
 }

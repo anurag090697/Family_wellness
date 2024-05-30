@@ -18,13 +18,14 @@ function Hero () {
                     </button>
                 </div>
             </div>
-            <div>
+            <div className="threePS">
                 <p>Are you looking for a professional, registered massage therapist? Sample Massage Therapy has 4 Registered massage therapists who can provide clinical massage.</p>
 
                 <p>We are commited to your long term health and well-being. Our multi-disciplinary clinic provides a balanced approach to a healthy lifestyle. Enhance your health and improve your performance with our treatments.</p>
 
                 <p>We welcome you to come explore all the benefits uou'll enjoy as one of our valued guests. Our professional staff is commited to offering the best massage therapy in mainland.</p>
             </div>
+            <hr />
         </section>
     )
 }
