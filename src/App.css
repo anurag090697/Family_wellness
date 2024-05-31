@@ -74,6 +74,7 @@ nav div:hover {
 .fitnesspics img {
   width: 70%;
   margin: 1rem auto;
+  height: auto;
 }
 .threePS {
   color: rgb(95, 95, 95);

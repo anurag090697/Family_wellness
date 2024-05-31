@@ -2,7 +2,7 @@ function Hero () {
     return(
         <section className="hero">
             <div className="fitnesspics">
-            <img src="public\assets\fitness_xptixd.jpg" alt="" />
+            <img src="https://www.cibdol.com/modules/psblog/uploads/1698759136.jpg" alt="" />
             </div>
             <div className="redInfos">
                 
