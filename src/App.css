@@ -69,6 +69,7 @@ nav div:hover {
 .fitnesspics {
   width: 100%;
   display: flex;
+  height: fit-content;
 }
 .fitnesspics img {
   width: 70%;
